@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reports>
+    <Report>
+        <DataSource/>
+        <Name/>
+        <Description/>
+        <PatternClause>
+            <SubPattern id="" name="">
+                <SingleEvtConstr>{query}</SingleEvtConstr>
+            </SubPattern>
+        </PatternClause>
+        <SelectClause>
+            <AttrList>{query_attrs}</AttrList>
+        </SelectClause>
+        <ReportInterval>
+            <Window unit="Minute" val="{query_interval}"/>
+        </ReportInterval>
+    </Report>
+</Reports>

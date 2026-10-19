@@ -1,0 +1,6 @@
+python-json-logger
+requests
+pymongo
+pandas
+xmltodict
+pytest
